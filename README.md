@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Dotfiles
 
 A minimal catppuccin theme i3wm dotfiles, that I use on my own machine.
