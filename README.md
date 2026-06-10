@@ -1,5 +1,5 @@
 # Dotfiles
-A minimal catppuccin theme i3wm dotfiles, that I use on my own machine.
+Simple catppuccin themed i3wm dotfiles for my personal usage.
 
 ## Features
 
@@ -8,7 +8,7 @@ A minimal catppuccin theme i3wm dotfiles, that I use on my own machine.
 - Rofi application launcher
 - Picom compositor
 - Catppuccin Mocha theme
-- Multiple wallpaper options
+- Various wallpapers
 
 ## Installation
 ```bash
@@ -19,10 +19,10 @@ cd dotfiles
 
 ## Configuration
 
-After installation, you can customize:
+Once installed, you can customize:
 
-- **Wallpaper**: Edit `~/.config/i3/config` line containing `feh --bg-scale` to change the wallpaper
-- **Colors**: The theme uses Catppuccin Mocha - adjust colors in respective config files if needed
+- **Wallpaper**: Change `~/.config/i3/config` line containing `feh --bg-scale` to change the wallpaper
+- **Colors**: The theme uses Catppuccin Mocha - change colors if necessary in the corresponding config files
 - **Polybar**: Modify `~/.config/polybar/config.ini` for bar appearance and modules
 - **Rofi**: Edit `~/.config/rofi/config.rasi` for launcher appearance
 
@@ -33,7 +33,7 @@ The installation copies multiple wallpapers to `~/Pictures/wallpaper/`:
 - `cabin.png`
 - `minimal-catppuccin-wallpaper.png`
 
-Feel free to add your own wallpapers to this directory and update the i3 config accordingly.
+Feel free to add your own wallpapers to this folder and change the feh code respectively
 
 ## Requirements
 
